@@ -39,13 +39,13 @@ export default function Login() {
       <h1 className="text-center text-gray-500">Login</h1>
       <div className="flex w-[300px] flex-col gap-2">
         <Input
-          className="rounded-xl text-white"
+          className="rounded-xl"
           type="email"
           placeholder="Enter your email"
           onChange={(e) => setEmail(e.target.value)}
         />
         <Input
-          className="rounded-xl text-white"
+          className="rounded-xl"
           type="password"
           placeholder="Enter your password"
           onChange={(e) => setPasssword(e.target.value)}
