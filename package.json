@@ -16,10 +16,13 @@
     "schema": "./src/db/prisma/schema.prisma"
   },
   "dependencies": {
+    "@commitlint/config-conventional": "^18.4.3",
     "@prisma/client": "^5.6.0",
+    "@radix-ui/react-navigation-menu": "^1.1.4",
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
+    "commitlint": "^18.4.3",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^17.1.0",
     "eslint-plugin-react": "^7.33.2",
